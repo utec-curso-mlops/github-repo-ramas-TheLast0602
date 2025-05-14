@@ -3,6 +3,10 @@ import pandas as pd
 import sklearn.metrics as metrics
 import os
 
+#Este script es para la correcion de un bug encontrado en el script 1-preprocess-dataset-train.py
+#El bug se encontraba en la funcion preprocess_clean_correlations
+
+
 
 class preprocess_data:
     _output_path = ""
