@@ -3,6 +3,7 @@ import pandas as pd
 import sklearn.metrics as metrics
 import os
 
+#se modifico el archivo para que se pueda ejecutar desde la consola
 
 class preprocess_data:
     _output_path = ""
